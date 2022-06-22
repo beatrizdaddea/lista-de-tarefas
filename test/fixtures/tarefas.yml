@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  descricao: MyString
+  inicio: 2022-06-22
+  previsao: 2022-06-22
+  status: MyString
+
+two:
+  nome: MyString
+  descricao: MyString
+  inicio: 2022-06-22
+  previsao: 2022-06-22
+  status: MyString

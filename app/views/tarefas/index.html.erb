@@ -1,0 +1,15 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Listagem de Tarefas</h1>
+
+<div style = "padding: 15px" id="tarefas">
+  <% @tarefas.each do |tarefa| %>
+    <%= render tarefa %>
+    <p>
+      <%= link_to "Show this tarefa", tarefa %>
+    </p>
+    <hr> 
+  <% end %>
+</div>
+<br>
+<%= link_to "New tarefa", new_tarefa_path %>

@@ -1,0 +1,14 @@
+
+<h1>New tarefa</h1>
+
+
+<%# formulário está associado ao objeto @tarefa, instanciado no método new, e cada campo contido na página é associado com um atributo do modelo, %>
+
+
+<%= render "form", tarefa: @tarefa %>
+
+<br>
+
+<div>
+  <%= link_to "Back to tarefas", tarefas_path %>
+</div>
