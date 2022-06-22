@@ -11,31 +11,32 @@
     </div>
   <% end %>
 
-  <div>
+  <div style = "padding-bottom: 12px">
     <%= form.label :nome, style: "display: block" %>
     <%= form.text_field :nome %>
   </div>
 
-  <div>
+  <div style = "padding-bottom: 12px">
     <%= form.label :descricao, style: "display: block" %>
     <%= form.text_field :descricao %>
   </div>
 
-  <div>
+  <div style = "padding-bottom: 12px">
     <%= form.label :inicio, style: "display: block" %>
     <%= form.date_field :inicio %>
   </div>
 
-  <div>
+  <div style = "padding-bottom: 12px">
     <%= form.label :previsao, style: "display: block" %>
-    <%= form.date_field :previsao %>
+    <%= form.date_field :previsao  %>
+
   </div>
 
-  <div>
+  <div style = "padding-bottom: 12px">
     <%= form.label :status, style: "display: block" %>
     <%= form.text_field :status %>
   </div>
-
+<br> 
   <div>
     <%= form.submit %>
   </div>
